@@ -5,6 +5,9 @@ MAINTAINER Thomas <thomasvt@me.com>
 # Install homebridge                             #
 ##################################################
 
+
+RUN apk add wget
+
 RUN python3 -m pip install fauxmo
 
 RUN \
