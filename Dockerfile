@@ -6,7 +6,7 @@ MAINTAINER Thomas <thomasvt@me.com>
 ##################################################
 
 
-RUN apk add wget
+RUN apk add --update wget
 
 RUN python3 -m pip install fauxmo
 
