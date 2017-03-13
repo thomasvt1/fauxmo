@@ -22,4 +22,4 @@ RUN \
 ##################################################
 
 EXPOSE 12350
-CMD ["fauxmo -c /config/config.json"]
+CMD ["fauxmo", "-c", "/config/config.json"]
