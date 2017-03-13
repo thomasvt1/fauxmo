@@ -11,7 +11,7 @@ RUN apk add --update wget
 RUN python3 -m pip install fauxmo
 
 RUN \
-  wget https://github.com/n8henrie/fauxmo/blob/master/config-sample.json && \
+  wget https://raw.githubusercontent.com/n8henrie/fauxmo/master/config-sample.json && \
   mkdir /config && \
   mv config-sample.json /config/
 
